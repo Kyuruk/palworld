@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpalworld=self.webpackChunkpalworld||[]).push([[5794],{1746:l=>{l.exports=JSON.parse('{"label":"docusaurus","permalink":"/palworld/blog/tags/docusaurus","allTagsPath":"/palworld/blog/tags","count":4,"unlisted":false}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpalworld=self.webpackChunkpalworld||[]).push([[8071],{1663:l=>{l.exports=JSON.parse('{"permalink":"/palworld/blog/tags/hello","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

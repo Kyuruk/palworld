@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpalworld=self.webpackChunkpalworld||[]).push([[7282],{7331:l=>{l.exports=JSON.parse('{"label":"hola","permalink":"/palworld/blog/tags/hola","allTagsPath":"/palworld/blog/tags","count":1,"unlisted":false}')}}]);
