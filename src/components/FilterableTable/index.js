@@ -37,6 +37,16 @@ const FilterableTable = () => {
             <th>Name</th>
             <th>Age</th>
             <th>Job</th>
+            <th>ddddd</th>
+            <th>ddddd</th>
+            <th>ddddd</th>
+            <th>ddddd</th>
+            <th>ddddd</th>
+            <th>ddddd</th>
+            <th>ddddd</th>
+            <th>ddddd</th>
+            <th>ddddd</th>
+            <th>ddddd</th>
           </tr>
         </thead>
         <tbody>
@@ -46,6 +56,16 @@ const FilterableTable = () => {
               <td>{item.name}</td>
               <td>{item.age}</td>
               <td>{item.job}</td>
+              <td>aaaaa</td>
+              <td>aaaaa</td>
+              <td>aaaaa</td>
+              <td>aaaaa</td>
+              <td>aaaaa</td>
+              <td>aaaaa</td>
+              <td>aaaaa</td>
+              <td>aaaaa</td>
+              <td>aaaaa</td>
+              <td>aaaaa</td>
             </tr>
           ))}
         </tbody>

@@ -88,6 +88,8 @@
 } 
 
 
-body {
+html,
+h1, h2, h3, h4, h5, h6,
+.footer__title {
   font-family: 'Montserrat', 'NanumSquareNeo', sans-serif;
 }
