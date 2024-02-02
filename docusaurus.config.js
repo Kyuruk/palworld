@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Palworld Info',
-  tagline: 'Palworld is funny',
+  title: '팰노트',
+  tagline: '팰월드와 관련된 정보',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -59,14 +59,28 @@ const config = {
       }),
     ],
   ],
-
+  stylesheets: [
+    {
+      rel: "preconnect",
+      href: "https://fonts.googleapis.com",
+    },
+    {
+      rel: "preconnect",
+      href: "https://fonts.gstatic.com",
+      crossorigin: "anonymous",
+    },
+    {
+      rel: "stylesheet",
+      href: "https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap",
+    },
+  ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: '팰노트',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -76,10 +90,10 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: '튜토리얼',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {to: '/aaa', label: 'aaa', position: 'left'},
+          {to: '/blog', label: '블로그', position: 'left'},
+          {to: '/aaa', label: '지도', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',

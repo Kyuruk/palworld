@@ -6,25 +6,88 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #030637;
+  --ifm-color-primary-dark: #030532;
+  --ifm-color-primary-darker: #03052f;
+  --ifm-color-primary-darkest: #020427;
+  --ifm-color-primary-light: #03073d;
+  --ifm-color-primary-lighter: #03073f;
+  --ifm-color-primary-lightest: #040848;
+  --ifm-background-color: #fbfbfe;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #b3b3ff;
+  --ifm-color-primary-dark: #8888ff;
+  --ifm-color-primary-darker: #7272ff;
+  --ifm-color-primary-darkest: #3131ff;
+  --ifm-color-primary-light: #dedeff;
+  --ifm-color-primary-lighter: #f4f4ff;
+  --ifm-color-primary-lightest: #ffffff;
+  --ifm-background-color: #1b1b2f;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+@font-face {
+  font-family: 'NanumSquareNeo';
+  font-weight: 300;
+  font-style: normal;
+  src: url('/fonts/nanumsquareneo/NanumSquareNeo-aLt.eot');
+  src: url('/fonts/nanumsquareneo/NanumSquareNeo-aLt.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/nanumsquareneo/NanumSquareNeo-aLt.woff2') format('woff2'),
+       url('/fonts/nanumsquareneo/NanumSquareNeo-aLt.woff') format('woff'),
+       url('/fonts/nanumsquareneo/NanumSquareNeo-aLt.ttf') format("truetype");
+  font-display: swap;
+} 
+@font-face {
+  font-family: 'NanumSquareNeo';
+  font-weight: 400;
+  font-style: normal;
+  src: url('/fonts/nanumsquareneo/NanumSquareNeo-bRg.eot');
+  src: url('/fonts/nanumsquareneo/NanumSquareNeo-bRg.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/nanumsquareneo/NanumSquareNeo-bRg.woff2') format('woff2'),
+       url('/fonts/nanumsquareneo/NanumSquareNeo-bRg.woff') format('woff'),
+       url('/fonts/nanumsquareneo/NanumSquareNeo-bRg.ttf') format("truetype");
+  font-display: swap;
+} 
+@font-face {
+  font-family: 'NanumSquareNeo';
+  font-weight: 700;
+  font-style: normal;
+  src: url('/fonts/nanumsquareneo/NanumSquareNeo-cBd.eot');
+  src: url('/fonts/nanumsquareneo/NanumSquareNeo-cBd.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/nanumsquareneo/NanumSquareNeo-cBd.woff2') format('woff2'),
+       url('/fonts/nanumsquareneo/NanumSquareNeo-cBd.woff') format('woff'),
+       url('/fonts/nanumsquareneo/NanumSquareNeo-cBd.ttf') format("truetype");
+  font-display: swap;
+} 
+@font-face {
+  font-family: 'NanumSquareNeo';
+  font-weight: 800;
+  font-style: normal;
+  src: url('/fonts/nanumsquareneo/NanumSquareNeo-dEb.eot');
+  src: url('/fonts/nanumsquareneo/NanumSquareNeo-dEb.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/nanumsquareneo/NanumSquareNeo-dEb.woff2') format('woff2'),
+       url('/fonts/nanumsquareneo/NanumSquareNeo-dEb.woff') format('woff'),
+       url('/fonts/nanumsquareneo/NanumSquareNeo-dEb.ttf') format("truetype");
+  font-display: swap;
+} 
+@font-face {
+  font-family: 'NanumSquareNeo';
+  font-weight: 900;
+  font-style: normal;
+  src: url('/fonts/nanumsquareneo/NanumSquareNeo-eHv.eot');
+  src: url('/fonts/nanumsquareneo/NanumSquareNeo-eHv.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/nanumsquareneo/NanumSquareNeo-eHv.woff2') format('woff2'),
+       url('/fonts/nanumsquareneo/NanumSquareNeo-eHv.woff') format('woff'),
+       url('/fonts/nanumsquareneo/NanumSquareNeo-eHv.ttf') format("truetype");
+  font-display: swap;
+} 
+
+
+body {
+  font-family: 'Montserrat', 'NanumSquareNeo', sans-serif;
 }
