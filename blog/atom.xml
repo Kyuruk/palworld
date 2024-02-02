@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kyuruk.github.io/palworld/blog</id>
-    <title>Palworld Info Blog</title>
+    <title>팰노트 Blog</title>
     <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kyuruk.github.io/palworld/blog"/>
-    <subtitle>Palworld Info Blog</subtitle>
+    <subtitle>팰노트 Blog</subtitle>
     <icon>https://kyuruk.github.io/palworld/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
